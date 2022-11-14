@@ -44,7 +44,7 @@ def get_score():
 
     while score < 0 or score > 100:
         print("Invalid score")
-        score = float(input("Enter score: "))
+        score = float(input("Enter score: " ))
     return score
 
 
