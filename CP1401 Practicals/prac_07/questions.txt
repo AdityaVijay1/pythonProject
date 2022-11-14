@@ -1,0 +1,18 @@
+Quick Questions
+1.  Constants should be declared at the top and all characters should be in capital form.
+2.  Global variables make debugging difficult. Functions that use global variables are usually dependent on those variables, which makes it hard to transfer to another program
+3.  Scope
+4.  Breakpoints are special markers that suspend program execution at a specific point. This lets you examine the program state and behavior.
+5.  This would mean that we are increasing the value of the variable before even assigning it a value. This causes a Name error as we cannot assign a variable to itself while increasing its value since we do not know its initial variable value itself.
+6.  Single Responsibility Principal. Each function should only perform a single task. This makes it easier to call functions and repeat the use of functions
+
+Logic Exercise
+Read it correctly the first time. "The" is repeated twice.
+
+Reflection
+1. Decision Structures: How a certain decision can change the entire path/sequence that will be followed. This helped me understand alot about my personal journey in life and the value of a decision
+2. Looping: The process of doing something over and over until we get the desired result. As not everything can happen after only one try.
+3. Problem Decomposition: Breaking down a complex problem into smaller problems and working on a solution for each of them rather than the main problem helps build motivation and a sense of success
+
+
+

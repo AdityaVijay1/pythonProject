@@ -1,0 +1,41 @@
+1. Ctrl+/ can be used to comment (out/in) lines in python
+2. For and while loops are available in python
+3. A sentinel is a value that marks end of sequence of values. It needs underscore"_" so that it follows proper naming procedure
+4. It does not follow proper naming procedure, which is lower_underscore. Not able to understand its Data type. No information provided
+5. A function that combines or augments an arithmetic operator with an assignment operator.
+
+
+
+For loop questions
+a)
+1. 0 1 2 3 4 5
+2. 33 34 35 36 37 38
+3. 17 16 15 14 13 12
+4. 1 0 1 0 1 0 1 0 1 0
+5. 100>64>36>16>4>
+
+b)
+1. for i in range(0,6)
+2. for i in range(1,14,4)
+3. for i in range(3,0,-1)
+4. for i in range(7,-6,-3)
+
+
+Patterns
+1. while
+2. while
+3. for
+4. for
+5. for
+
+Logic Exercise
+1
+
+Since the labels are changed
+
+Draw from the box which has the label Black-White
+
+Say if it's black marble then it's the Black-Black marble box and then the white-white label must contain the white-black marbles (after label exchange), leaving the last box of marbles.
+
+The same works if the first marble pick is white.
+

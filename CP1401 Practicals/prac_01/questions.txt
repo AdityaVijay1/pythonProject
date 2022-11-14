@@ -1,0 +1,103 @@
+Logic Exercise
+
+Smith is the project manager (because it states that he earns more than the consultant and the programmer earns the least)
+
+
+
+Jones is the programmer as he is the only child as Brown has a sister
+
+
+
+Leaving Brown to be the consultant
+
+Jones = Programmer
+
+Smith = Project manager
+
+Brown = Consultant
+
+
+ALGORITHMS
+
+
+1.Algorithm with I, P, O
+
+get dose,yield
+
+brew ratio=yield/dose
+
+print/display brew ratio
+
+2. Algorithm with Decision
+
+
+get money,price
+
+if money>=price
+
+  Buy item
+
+else
+
+  Do not buy item
+
+
+
+3. Algorithm with Repetition
+
+pick item
+while items remaining
+    pick item
+stop cleaning
+
+
+PROBLEM DECOMPOSITION
+
+Q1
+
+Noun: The hourly dosage,hours,total dosage
+
+Verb: get the hourly dosage,hours
+      calculate,display
+
+
+Algorithm:
+get hourly dosage,hours
+
+total dosage= hourly dosage*hours
+
+display total dosage
+
+
+
+Q2.
+Noun= customer's name, date of the booking, unique booking id, hourly charge, number of hours, charge
+
+Verb= calculate, generate,display
+
+
+Algorithm:
+get customer's name, date of booking, hourly charge, number of hours
+
+Charge = hourly charge*number of hours
+
+Unique booking id = generated from customer's name and date of booking
+
+display charge, unique booking id
+
+
+Q3.
+Noun= distance travelled(kilometre), travel time(minutes), average speed(kilometre/hour)
+
+Verb= calculate,display
+
+
+Algorithm:
+get distance travelled(kilometre), travel time(minutes)
+
+travel time(hour) = travel time(minute)/60
+
+average speed(kilometre/hour) = distance travelled(kilometre)/travel time(hour)
+
+display average speed
+

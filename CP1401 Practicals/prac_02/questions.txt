@@ -1,0 +1,19 @@
+Quick Questions
+1. hourly_dosage and dose_amount
+2. a and b
+3. 1_a and !apple
+4.A variable name must start with a letter or the underscore character. A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores.
+5. A constant is a type of variable whose value cannot be changed.  For example, Hourly_dose=2
+6. The naming convention for constants in python is capitilised with underscores
+
+Logic Exercise
+Sock Question
+Amount: 3
+If they get one black and one white the 3rd one is bound to be one of the two colours to get a pair
+
+
+Problem Description
+Leia and Han
+Input: original_price and surcharge_rate
+Output: total_price
+Processing: extra_charge= original_price*surcharge_rate, total_charge= original_price+extra_charge

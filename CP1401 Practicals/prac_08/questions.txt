@@ -1,0 +1,25 @@
+Quick Questions
+1) Lists are mutable(can change value in place) while tuples are immutable (cannot change value in place)
+2) Plural forms need to be used.
+3) Cities
+4) For 32 bits it can have 536870912 elements. Since a list has a variable length (can increase or decrease), we can have as many elements till the limit.
+5) False. Can be any data type.
+6) The len function can be used to count the number of elements present in a sequence. Can be used in strings,lists,tuples,dictionaries.
+
+List expressions
+Lists Warmup
+
+Part 1
+1) 10
+2) 81
+3) 81
+4) True
+5) False
+6) 60
+7) 4
+
+Part 2
+1) numbers[0]=1
+2) numbers[-1]=4
+3) 1 in numbers
+4) print(numbers[1]*10)

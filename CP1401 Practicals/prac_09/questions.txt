@@ -1,0 +1,14 @@
+Quick Questions
+1) When opening a file in 'r' mode it means the file is being opened in reading mode to read all the values present in the file and to be stored (retrieving data). File object cursor is placed in the beginning.
+   When opening a file in 'w' mode it means the file is being opened in writing mode to write values to the file. If data is already present the data will be overwritten. File object cursor is placed in the beginning.
+2) A file object is used to access the contents of a file. It is used to hold information from the file. A file object has a cursor that is placed in the file depending on what mode the file is opened in.A file can be opened in reading,writing or appending mode.
+3) It is necessary to close a file to ensure 'flushing' of the data. If a file is not closed the file remains opened in the OS. File cannot be shared.
+4) If the value we have needs to be used in multiple places it should be declared as a constant to prevent it from being a magic number. The value is a fixed value and wont change it should be declared a constant.
+5) print(filename[filename(filename.find('.'))+1:len(filename)])
+6) 5
+
+Logic Exercise
+1) 0th index: There is 1 false statement
+2) 1st index: There are 2 false statements
+3) 2nd index: There are 3 false statements
+4) 3rd index: There is no 4th element or 3rd index present in the element

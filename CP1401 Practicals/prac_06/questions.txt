@@ -1,0 +1,23 @@
+Quick Questions
+1. Ctrl+/
+2. The single responsibility principal(SRP). Each function is responsible for only one task. A function should take user input if it is designed for it.They also normally dont print but instead return a value unless tasked to print a value
+3. return
+4. Arguments are used in the function call statement whereas parameters are used to in the function definition header. Values that are passed as arguments are received by the parameters.
+   The parameters are the variable inside the function that is assigned the value of an argument when the function is called. The number of arguments and number of parameters always has to be the same.
+5.  import random
+    RandomCall(random.randint(1,100))
+6. print(),input(),int(),float()
+7. 18.6 grams
+
+Good Names
+1. SubjectGrade_Based_On_Score
+2. Convert_USD_To_AUD
+3. Display_Report
+4. Avg_Of_List_Of_Numbers
+5. Is_Number_Even
+6. Get_Salary
+
+
+
+
+

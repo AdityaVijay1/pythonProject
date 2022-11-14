@@ -1,0 +1,49 @@
+Quick questions:
+
+
+
+
+1. The 'not equal to' operator is represented as '!=' and returns a boolean value, either true or false based on the comparison of the two operands.
+2. The 'less than or equal to' operator is represented as '<=' and compares the two operators to give a boolean value.
+3.b+c*a>a**b
+    11>8
+    True
+4. True
+
+5. True
+
+6. 10%2==0
+   True
+
+Patterns
+1. if,elif,else
+
+2. if,no else
+
+3. if,if,if..
+
+4. if,elif, else
+
+5. if, else
+
+6. if,else
+
+7. if,elif,else also using 'and','or'
+
+Logic Exercise
+When asked her 3 children's ages, Mrs. Muddled said that Alice is the youngest unless Bill is,
+and that if Carl isn't the youngest then Alice is the oldest.
+
+
+
+if Bill == youngest
+
+    Alice is not the youngest
+
+if Carl is not the(!=) youngest
+
+    Alice is the oldest
+
+
+
+The youngest is Bill and the oldest is Alice and the middle child is Carl.
