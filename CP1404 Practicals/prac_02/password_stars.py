@@ -1,3 +1,31 @@
+"""Pseudocode
+function main():
+    password = get_password()
+    display_result(password)
+
+
+function display_result(password):
+    for i in range(len(password)):
+        display '*', end=''
+
+
+
+function get_password():
+    MINIMUM_LENGTH = 5
+    get password
+    while len(password) < MINIMUM_LENGTH:
+        display "Invalid password"
+        get password
+    return password
+main()
+
+
+
+
+"""
+
+
+
 def main():
     password = get_password()
     display_result(password)
