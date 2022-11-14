@@ -1,27 +1,43 @@
 """
-CP1404 - Practical Week 1 temperature.py
+CP1404 - Practical Week 2 temperatures.py
 
 Pseudocode for temperature conversion
 
-MENU = ""C - Convert Celsius to Fahrenheit
-F - Convert Fahrenheit to Celsius
-Q - Quit""
-display MENU
-get choice
-while choice != "Q":
-    if choice == "C":
-        get celsius
-        fahrenheit = celsius * 9.0 / 5 + 32
-        display "Result: {fahrenheit:.2f} F"
-    elif choice == "F":
-        get fahrenheit
-        celsius = 5 / 9 * (fahrenheit - 32)
-        display "Result: {celsius:.2f} C"
-    else:
-        display "Invalid option"
-    display MENU
+
+function main():
+    MENU = '""C - Convert Celsius to Fahrenheit\nF - Convert Fahrenheit to Celsius\nQ - Quit""'
+    display (MENU)
     get choice
-display "Thank you."
+    while choice != "Q":
+        if choice == "C":
+            fahrenheit = Celsius_To_Fahrenheit()
+            display "Result: {fahrenheit:.2f} F"
+        elif choice == "F":
+            celsius = Fahrenheit_To_Celsius()
+            display "Result: {celsius:.2f} C"
+        else:
+            display "Invalid option"
+        display MENU
+        get choice
+    display "Thank you."
+
+
+function Celsius_To_Fahrenheit():
+    global celsius, fahrenheit
+    get celsius
+    fahrenheit = celsius * 9.0 / 5 + 32
+    return fahrenheit
+
+
+function Fahrenheit_To_Celsius():
+    global fahrenheit, celsius
+    get fahrenheit
+    celsius = 5 / 9 * (fahrenheit - 32)
+    return celsius
+
+
+main()
+
 
 """
 
