@@ -20,7 +20,8 @@ for i in CODE_TO_NAME:
 print()
 
 state_code = input("Enter short state: ").upper()
-for code in CODE_TO_NAME:
+
+while state_code != '':
     try:
         print(state_code, "is", CODE_TO_NAME[state_code])
     except KeyError:
