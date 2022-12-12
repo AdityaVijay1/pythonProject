@@ -13,6 +13,8 @@ def main():
     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
     visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991)
     print(python)
+    print(ruby)
+    print(visual_basic)
     language_names=[python,ruby,visual_basic]
     dynamic_langauges=[language.name for language in language_names if language.is_dynamic()]
     print()
