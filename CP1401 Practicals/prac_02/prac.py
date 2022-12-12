@@ -1,19 +1,3 @@
-def main():
-
-    x = [2, 3, 4]
-
-    y = do_something()
-
-    print(y)
-
-
-
-def do_something():
-
-    x = a[1] + a[2]
-
-    return x
-
-
-
-main()
+def process(x, y=2, z=3):
+    return x + y + z
+process(x=2,y,z)
