@@ -27,7 +27,7 @@ class Guitar:
         return CURRENT_YEAR - self.year
 
     def is_vintage(self):
-        ''' Find out weather the guitar is a vintage one or not'''
+        """ Find out weather the guitar is a vintage one or not"""
         if self.get_age() >= MINIMUM_AGE:
             return True
         else:
