@@ -34,5 +34,5 @@ class Guitar:
             return False
 
     def __lt__(self, other):
-        ''' Method to compare the the two guitar based on the year'''
+        ''' Method to compare the two guitar based on the year'''
         return self.year < other.year
