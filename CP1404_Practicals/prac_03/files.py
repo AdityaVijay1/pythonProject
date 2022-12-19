@@ -1,14 +1,14 @@
 #1. Write code that asks the user for their name, then opens a file called "name.txt" and writes that name to it. Remember to close your file.
-name=input("Enter your name: ")
+champions_name=input("Enter your name: ")
 out_file=open('name.txt', 'w')
-out_file.write(name)
+out_file.write(champions_name)
 out_file.close()
 
 
 #2. Write code that opens "name.txt" and reads the name (as above) then prints
 in_file=open('name.txt')
-name=in_file.read()
-print("Your name is",name)
+champions_name=in_file.read()
+print("Your name is", champions_name)
 in_file.close()
 
 #3. Write code that opens "numbers.txt", reads only the first two numbers and adds them together then prints the result

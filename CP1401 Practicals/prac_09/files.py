@@ -1,8 +1,8 @@
 # question_4()
 file_name = open("name.txt", 'r')
-name = file_name.read().strip()
+champions_name = file_name.read().strip()
 file_name.close()
-print(f"Greetings {name} !")
+print(f"Greetings {champions_name} !")
 
 # question_5()
 COUNT = 0

@@ -14,9 +14,9 @@ for i in text:
         b=int(b)
     i=(a,b)
     words.append(i)
-name = "?name=Bob&age=99&day=Wed"
+champions_name = "?name=Bob&age=99&day=Wed"
 
-names = name.split("&")
+names = champions_name.split("&")
 for i in range(0, len(names)):
     names[i] = names[i].lstrip("?")
     names[i] = names[i].split("=")
