@@ -97,6 +97,7 @@ def main():
 
 
 def get_data(filename):
+    """Getting data from the file"""
     projects = []
     in_file = open(filename, 'r')
     in_file.readline()
@@ -108,12 +109,14 @@ def get_data(filename):
 
 
 def add_object(projects):
+    """Creating an object using the class"""
     for project in projects:
         class_projects.append(Project(project[0], project[1], int(project[2]), float(project[3]), int(project[4])))
     return projects
 
 
 def sort_project_by_date(date, sorted_filtered_projects):
+    """Sorting the projects based on their respective dates"""
     filtered_projects = []
     filtered_dates = []
     final_sorted_filtered_dates = []
@@ -128,17 +131,20 @@ def sort_project_by_date(date, sorted_filtered_projects):
 
 
 def remove_duplicated_dates(final_sorted_filtered_dates, sorted_filtered_dates):
+    """Removing all duplicated dates in the projects"""
     for date in sorted_filtered_dates:
         if date not in final_sorted_filtered_dates:
             final_sorted_filtered_dates.append(date)
 
 
 def filter_dates(filtered_dates, filtered_projects):
+    """Filtering the dates in the projects"""
     for project in filtered_projects:
         filtered_dates.append(project.start_date)
 
 
 def filter_projects(date, filtered_projects):
+    """Getting all the filtered projects from the projects based on the date provided"""
     for project in class_projects:
         project.start_date = datetime.datetime.strptime(str(project.start_date), "%d/%m/%Y").date()
         if project.start_date > date:
@@ -146,6 +152,7 @@ def filter_projects(date, filtered_projects):
 
 
 def validate_project_choice():
+    """Checking if the project exists based on user input"""
     try:
         project_choice = int(input("Project choice: "))
     except ValueError:
@@ -161,6 +168,7 @@ def validate_project_choice():
 
 
 def validate_date():
+    """Validating if the date entered is legitimate"""
     data = input("Show projects that start after date (dd/mm/yy):  ")
     while len(data) < 8 or len(data) > 10 or data.count("/") != 2:
         print("Invalid input")
@@ -169,6 +177,7 @@ def validate_date():
 
 
 def validate_cost_estimate():
+    """Validating the cost estimate to make sure it's of correct data type"""
     try:
         data = float(input("Cost estimate: $"))
     except ValueError:
@@ -181,6 +190,7 @@ def validate_cost_estimate():
 
 
 def validate_priority(prompt):
+    """Validating the priority entered to make sure it's within accurate bounds"""
     try:
         data = int(input(prompt))
     except ValueError:
@@ -196,6 +206,7 @@ def validate_priority(prompt):
 
 
 def validate_percentage(prompt):
+    """Validating the percentage entered to make sure it's within accurate bounds"""
     try:
         data = int(input(prompt))
     except ValueError:
@@ -211,6 +222,7 @@ def validate_percentage(prompt):
 
 
 def save():
+    """Saving the projects to a text file with any new updates"""
     out_file = open("projects.txt", "w")
     print("Name\tStart Date\tPriority\tCost Estimate\tCompletion Percentage", file=out_file)
     for project in class_projects:
@@ -221,12 +233,14 @@ def save():
 
 
 def get_choice():
+    """Taking user input"""
     print(MENU, end='\n')
     choice = input('>>>').upper()
     return choice
 
 
 def display_project(projects):
+    """Displaying all projects currently present"""
     for project in projects:
         print(project)
 

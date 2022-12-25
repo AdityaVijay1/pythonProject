@@ -45,6 +45,7 @@ def main():
 
 
 def write_to_file(name, year, cost):
+    """Adding new details to the file"""
     with open('guitars.csv', 'a') as out_file:
         print(f"{name},{year},{cost}", file=out_file)
 
