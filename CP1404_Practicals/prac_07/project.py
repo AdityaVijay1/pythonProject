@@ -1,3 +1,9 @@
+"""CP1404 Practicals
+project program
+
+Estimate time: 10 minutes
+Actual time: 10 minutes
+"""
 import datetime
 
 

@@ -1,5 +1,5 @@
 """CP1404 Practicals
-myguitar
+guitar program
 Estimate Time: 30 minutes
 Actual Time: 35 minutes"""
 

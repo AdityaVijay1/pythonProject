@@ -1,3 +1,9 @@
+"""CP1404 Practicals
+project management program
+Estimate time: 2 hours
+Actual time: 2 hours"""
+
+
 import datetime
 from CP1404_Practicals.prac_07.project import Project
 

@@ -1,6 +1,9 @@
 """
-CP1404/CP5632 Practical - Suggested Solution
+CP1404 Practical - Suggested Solution
 Programming Language class with tests.
+programming language program
+Estimate Time: 10 minutes
+Actual Time: 15 minutes
 """
 
 

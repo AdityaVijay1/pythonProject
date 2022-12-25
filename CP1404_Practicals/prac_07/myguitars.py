@@ -1,3 +1,11 @@
+"""
+CP1404 Practicals
+myguitar program
+Estimate Time: 10 minutes
+Actual Time: 15 minutes"""
+
+
+
 import csv
 from guitar import Guitar
 
