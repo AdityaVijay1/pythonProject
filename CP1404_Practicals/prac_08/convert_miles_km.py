@@ -31,6 +31,7 @@ class MilesConverterApp(App):
         self.root.ids.input_miles.text = str(miles)
 
     def update_result(self, miles):
+        """Converts the miles to kilometres"""
         print("update")
         self.output_km = str(miles * MILES_TO_KM)
 
