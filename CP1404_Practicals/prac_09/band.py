@@ -5,9 +5,11 @@ class Band:
         self.member_dictionary = {}
 
     def __str__(self):
+        """Print in the required format"""
         return f"{self.name} ({str(self.members).lstrip('[').rstrip(']')})"
 
     def add(self, musician):
+        """Add details about the musician"""
         self.member_dictionary[musician.name] = musician.instruments
         self.members.append(f"{musician.name} ({musician.instruments})")
 
